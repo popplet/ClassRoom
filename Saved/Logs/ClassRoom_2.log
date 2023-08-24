@@ -1582,3 +1582,63 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.08.24-02.00.34:733][958]SourceControl:  create mode 100644 Content/MSPresets/M_MS_Surface_Material_VT/M_MS_Surface_Material_VT.uasset
 [2023.08.24-02.00.34:733][958]SourceControl:  create mode 100644 Content/OperaHouse/Meshes/SM_Subwoofer01.uasset
 [2023.08.24-02.00.34:750][958]SourceControl: [master 8cae9d2] 에셋이주 커밋했습니다.
+[2023.08.24-02.09.28:297][857]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.24-02.09.29:442][895]LogShaderCompilers: Display: ================================================
+[2023.08.24-02.09.29:442][895]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.08.24-02.09.29:442][895]LogShaderCompilers: Display: Total job queries 6,458, among them cache hits 20 (0.31%)
+[2023.08.24-02.09.29:442][895]LogShaderCompilers: Display: Tracking 6,432 distinct input hashes that result in 4,589 distinct outputs (71.35%)
+[2023.08.24-02.09.29:442][895]LogShaderCompilers: Display: RAM used: 84.05 MiB of 819.20 MiB budget. Usage: 10.26%
+[2023.08.24-02.09.29:442][895]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Shaders Compiled: 6,428
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Jobs assigned 6,434, completed 6,428 (99.91%)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Average time worker was idle: 19.73 s
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Time job spent in pending queue: average 222.24 s, longest 476.08 s
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Job execution time: average 6.04 s, max 65.97 s
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Job life time (pending + execution): average 228.49 s, max 481.14
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 513.90 s
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Jobs were issued in 745 batches (only local compilation was used), average 8.64 jobs/batch
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Average processing rate: 12.51 jobs/sec
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Total thread time: 3,907.627 s
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Total thread preprocess time: 107.848 s
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Percentage time preprocessing: 2.76%
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Effective parallelization: 7.60 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled    6 times, average 29.21 sec, max 60.37 sec, min 3.75 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 6.72 sec, max 7.79 sec, min 4.81 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 5.76 sec, max 10.51 sec, min 2.27 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.39 sec, max 4.10 sec, min 1.35 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                        FCloudRenderViewPS011 (compiled    1 times, average 2.37 sec, max 2.37 sec, min 2.37 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                             FDeferredLightPS - 7.61% of total time (compiled  150 times, average 1.98 sec, max 2.67 sec, min 1.55 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 4.49% of total time (compiled    6 times, average 29.21 sec, max 60.37 sec, min 3.75 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 3.45% of total time (compiled   96 times, average 1.41 sec, max 1.94 sec, min 0.97 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.18% of total time (compiled   96 times, average 1.30 sec, max 2.14 sec, min 0.64 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 3.11% of total time (compiled  128 times, average 0.95 sec, max 1.54 sec, min 0.57 sec)
+[2023.08.24-02.09.29:443][895]LogShaderCompilers: Display: ================================================
+[2023.08.24-02.09.30:601][946]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.08.24-02.09.35:456][120]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/FirstPerson/Maps/FirstPersonMap does not exist, will not scan.
+[2023.08.24-02.09.36:276][141]LogShaderCompilers: Error: SCW 1 Queued Jobs, Finished 1 single jobs
+[2023.08.24-02.09.36:276][141]LogShaderCompilers: Error: Job 0 [Single] Failed: Material_0_75662dd54945ce39/Default/FLocalVertexFactory/TBasePassVSFNoLightMapPolicy/0:/Engine/Private/BasePassVertexShader.usf VF 'FLocalVertexFactory' Type 'TBasePassVSFNoLightMapPolicy' '/Engine/Private/BasePassVertexShader.usf' Entry 'Main' Permutation 0 
+[2023.08.24-02.09.36:303][142]LogShaderCompilers: Error: ShaderCompileWorker crashed!
+Assertion failed: bDirectoryExists [File:D:\build\++UE5\Sync\Engine\Source\Runtime\RenderCore\Private\ShaderCore.cpp] [Line: 2291] 
+FPaths::DirectoryExists(C:/Unreal Projects/ClassRoom/Intermediate/ShaderAutogen C:/Unreal Projects/ClassRoom/Intermediate/ShaderAutogen) DESKTOP-20IJ5BL
+
+0x00007ff8a0e546a5 ShaderCompileWorker-RenderCore.dll!AddShaderSourceDirectoryMapping() []
+0x00007ff7bedcbdd6 ShaderCompileWorker.exe!FWorkLoop::ProcessInputFromArchive() []
+0x00007ff7bedc82a2 ShaderCompileWorker.exe!FWorkLoop::Loop() []
+0x00007ff7bedc590a ShaderCompileWorker.exe!GuardedMain() []
+0x00007ff7bedc5b74 ShaderCompileWorker.exe!GuardedMainWrapper() []
+0x00007ff7bedd6ea8 ShaderCompileWorker.exe!wmain() []
+0x00007ff7bedd861c ShaderCompileWorker.exe!__scrt_common_main_seh() []
+0x00007ff9409b7614 KERNEL32.DLL!UnknownFunction []
+0x00007ff9414a26b1 ntdll.dll!UnknownFunction []
+
+
+
+
+[2023.08.24-02.09.36:303][142]LogShaderCompilers: Error: Expecting ShaderCompileWorker Single Jobs 83, got 0 instead! Forgot to build ShaderCompileWorker?
+[2023.08.24-02.09.43:536][753]Message dialog closed, result: Ok, title: 메시지, text: Expecting ShaderCompileWorker Single Jobs 83, got 0 instead! Forgot to build ShaderCompileWorker?
+[2023.08.24-02.09.43:536][753]LogWindows: FPlatformMisc::RequestExit(0)
+[2023.08.24-02.09.43:536][753]LogWindows: FPlatformMisc::RequestExitWithStatus(0, 0)
+[2023.08.24-02.09.43:536][753]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.08.24-02.09.43:548][754]LogShaderCompilers: Error: ShaderCompileWorker returned 0 single jobs, 1 expected
